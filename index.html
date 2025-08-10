@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
  <link rel="stylesheet" href="style.css?v=2" />
   <title>2_services_320</title>
      </head>
 <body class="page">
-  <header class="header">
+  <header class="header"> <!--элементы Header для всех трех расширений header для телефона, header__icon--tablet  для 760 и header2 для 1120-->
   <div class="header__left">
     <img src="img/burger.svg" class="header__icon" alt="" />
+    <img src="img/divider.svg" class="header__icon" alt="" />
   </div>
   
   <div class="header__center">
@@ -17,9 +18,13 @@
   </div>
   
   <div class="header__right">
-     <img src="img/divider.svg" class="header__icon" alt="" />
+    <img src="img/call.svg" class="header__icon--tablet" alt="" />
+    <img src="img/chat.svg" class="header__icon--tablet" alt="" />
+    <img src="img/profile.svg" class="header__icon--tablet" alt="" />
+    <img src="img/divider.svg" class="header__icon" alt="" />
     <img src="img/repair.svg" class="header__icon" alt="" />
     <img src="img/checkstatus.svg" class="header__icon" alt="" />
+    
   </div>
 </header>
 <h1 class="text-block__title"><img src="img/Title Copy.svg" alt=""/></h1>
@@ -27,23 +32,24 @@
     <ul class="menu__list">
     <li class="menu__item menu__item--active--true">Ремонтируемые устройства</li>
     <li class="menu__item">Цены на услуги</li>
-    <li class="menu__item">Адреса сервисных центров</li>
+    <li class="menu__item">Адреса сервисных центров</li> 
     <li class="menu__item">Специальные цены</li>
   </ul>
 </nav>
   <main class="page__main main">
     <section class="main__text-block text-block">
       <p class="text-block__text">Мы являемся авторизированным сервисным центром по ремонту техники Dell. Только у нас Вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+      <p class="text-block__text1">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера.</p>
+       <a href="#" class="text-block__link">
        <a href="#" class="text-block__link">
   <img src="img/expand.svg" alt="" class="button__icon" />
-  Читать далее
-</a>
+  Читать далее</a>
     </section>
     <div class="main__image-block">
       <img src="img/_MG_3223.svg" alt="" class="main__image">
     </div>
-     </main>
-
+</section>
+</main>
 
 </body>
 </html>
