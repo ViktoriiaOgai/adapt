@@ -5,19 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   }
-@media only screen and (max-width: 430px) {
+@media (max-width: 430px) {
 body {
    font-family: 'Barlow', sans-serif;
   background-color: #f5ebeb;
   color: #1b1c21;
   overflow-x: hidden;
 }
-.cont__menu {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  padding: 0 16px;        
-}
+
 .menu__list {
   display: flex;
   overflow-x: auto;
@@ -185,7 +180,7 @@ body {
 
 
 @media (min-width: 712px) {
-  /* Меняем padding и уменьшаем иконки */
+  
  body {
    font-family: 'Barlow', sans-serif;
   background-color: #f5ebeb;
@@ -262,7 +257,6 @@ body {
     height: auto;
   }
 
-  /* иконки только для планшета — показываем */
   .header__icon {display: none;}
   .header__icon--desc {display: none;}
   .header__icon--tablet {
@@ -385,7 +379,6 @@ body {
 }
 
 .menu__right {
-  display: flex;
   gap: 12px;
 }
 
@@ -398,5 +391,4 @@ body {
     font-size: 16px;
     padding: 8px 24px;
   }
-}
 }
