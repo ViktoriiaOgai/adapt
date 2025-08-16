@@ -9,6 +9,8 @@
   .desck-block__title {
     display: none;
   }
+  .desck__item1 {display: none;}
+  .text-block__text2{display: none;}
 body {
    font-family: 'Barlow', sans-serif;
   background-color: #f5ebeb;
@@ -56,7 +58,6 @@ body {
   flex-direction: column;
   height: 100%;
 }
-.page__main1{display: none;}
 .page__main {
   flex-grow: 1;
   display: flex;
@@ -188,6 +189,8 @@ body {
   .desck-block__title {
     display: none;
   }
+  .desck__item1 {display: none;}
+  .text-block__text2{display: none;}
  body {
    font-family: 'Barlow', sans-serif;
   background-color: #f5ebeb;
@@ -367,6 +370,7 @@ body {
   .header__icon--tablet {display: none;}
   .header {display: none;}
   .text-block__title{display: none;}
+  
 .desck-block {
       background:#f5ebeb;
       flex: 1 1 50%;
@@ -390,4 +394,22 @@ body {
   font-size: 12px;
   color: #1b1c21;
 }
+.desck__item1 {
+    display: block;
+    margin-top: 16px;
+    margin-left: 16px;  /* отступ слева */
+    font-size: 12px;
+    font-weight: 500;
+    color: #7e7e82;
+    cursor: pointer;
+  }
+.text-block__text2 {
+  width: 100%;
+  font-size: 16px;
+  margin-top:0;
+  padding: 0;
+}
+  .text-block__text,
+  .text-block__text1,
+  .text-block__text2 {display: block;}
 }
