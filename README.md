@@ -1,1 +1,2 @@
-https://viktoriiaogai.github.io/adapt/
+https://github.com/ViktoriiaOgai/adapt
+
